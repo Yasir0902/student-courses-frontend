@@ -1,0 +1,13 @@
+<div>
+  <h2>Courses</h2>
+  <div *ngIf="loading">Loading...</div>
+  <div *ngIf="error">Error: {{ error.message }}</div>
+  <ul>
+    <li *ngFor="let course of courses">
+      <strong>{{ course.name }}</strong>
+      <ul>
+        <li *ngFor="let student of course.students">{{ student.name }}</li>
+      </ul>
+    </li>
+  </ul>
+</div>

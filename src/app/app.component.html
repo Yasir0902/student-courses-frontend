@@ -1,0 +1,12 @@
+<mat-toolbar color="primary">
+  <span>Student-Course App</span>
+  <span class="spacer"></span>
+  <a mat-button routerLink="/students" routerLinkActive="active">Students</a>
+  <a mat-button routerLink="/courses" routerLinkActive="active">Courses</a>
+  <a mat-button routerLink="/add-student" routerLinkActive="active">Add Student</a>
+  <a mat-button routerLink="/add-course" routerLinkActive="active">Add Course</a>
+  <a mat-button routerLink="/link" routerLinkActive="active">Link Student to Course</a>
+</mat-toolbar>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>

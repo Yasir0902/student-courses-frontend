@@ -1,0 +1,30 @@
+.spacer {
+    flex: 1 1 auto;
+  }
+  
+  .container {
+    margin: 20px;
+  }
+  
+  mat-toolbar a.active {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #ffffff;
+  }
+
+  mat-toolbar {
+    background-color: #007bff !important;
+    color: white !important;
+  }
+  
+  mat-toolbar a {
+    color: white !important;
+    text-decoration: none;
+  }
+  
+  mat-toolbar a.active {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  

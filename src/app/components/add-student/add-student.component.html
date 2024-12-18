@@ -1,0 +1,12 @@
+<mat-card>
+  <mat-card-title>Add New Student</mat-card-title>
+  <mat-card-content>
+    <form (ngSubmit)="addStudent()">
+      <mat-form-field appearance="fill" class="full-width">
+        <mat-label>Student Name</mat-label>
+        <input matInput [(ngModel)]="name" name="name" required />
+      </mat-form-field>
+      <button mat-raised-button color="primary" type="submit">Add Student</button>
+    </form>
+  </mat-card-content>
+</mat-card>
